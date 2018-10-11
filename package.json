@@ -1,0 +1,33 @@
+{
+  "name": "husky-plugin-filter-push",
+  "bin": "src/bin.js",
+  "version": "0.1.0",
+  "description": "A husky plugin to filter push tags or delete remote branch.",
+  "engines": {
+    "node": ">=6"
+  },
+  "main": "src/index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/poppinlp/husky-plugin-filter-push.git"
+  },
+  "keywords": [
+    "husky plugin",
+    "pre-push",
+    "prepush"
+  ],
+  "author": "PoppinL <poppinlp@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/poppinlp/husky-plugin-filter-push/issues"
+  },
+  "homepage": "https://github.com/poppinlp/husky-plugin-filter-push#readme",
+  "devDependencies": {},
+  "peerDependencies": {
+    "husky": "^1.0.0"
+  },
+  "dependencies": {
+    "yargs-parser": "^11.0.0"
+  }
+}
